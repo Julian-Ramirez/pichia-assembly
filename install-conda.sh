@@ -12,6 +12,4 @@ cd install-files
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 
-cd ..
-
 # Now we must close the terminal and start a new one so we can install the rest of the dependencies using conda
