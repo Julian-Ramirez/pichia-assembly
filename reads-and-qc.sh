@@ -21,4 +21,6 @@ cd short-reads
 
 fastq-dump --gzip --split-files ERR1294016
 
-# Then we will qc our data and interpret the results
+# Then we will qc our data and interpret the results using 8 threads 
+
+fastqc -t 8 ERR1294016_1.fastq.gz  ERR1294016_2.fastq.gz
