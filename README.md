@@ -1,3 +1,3 @@
 # pichia-assembly
 
-This repository is designed to make it easy for me to assemble the pichia genome on the toilet
+De Novo assembly of Pichia Pastourus genome using a String Graph Assembler This is designed to run on ubuntu 16.4 LTS.
