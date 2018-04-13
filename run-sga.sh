@@ -113,5 +113,11 @@ $SGA_BIN overlap -m $MIN_OVERLAP -t $CPU reads.ec.filter.pass.fa
 # Perform the contig assembly
 $SGA_BIN assemble -m $ASSEMBLE_OVERLAP --min-branch-length $TRIM_LENGTH -o primary reads.ec.filter.pass.asqg.gz
 
-echo "End"
+echo "End Assembly"
 date
+
+#
+# Assess the quality of the assembly using QUAST
+#
+
+quast -t $CPU --est-ref-size 9430000 primary-contigs.fa
