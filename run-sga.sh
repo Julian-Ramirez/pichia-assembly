@@ -7,8 +7,8 @@
 # Point IN1 and IN2 to the pichia short reads
 
 
-IN1=/media/server/Disk/pichia-assembly/sga-assembly/pichia/short-reads/ERR1294016_1.fastq.gz
-IN2=/media/server/Disk/pichia-assembly/sga-assembly/pichia/short-reads/ERR1294016_2.fastq.gz
+IN1=/pichia-assembly/sga-assembly/pichia/short-reads/ERR1294016_1.fastq.gz
+IN2=/pichia-assembly/sga-assembly/pichia/short-reads/ERR1294016_2.fastq.gz
 
 
 
